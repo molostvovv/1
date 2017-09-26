@@ -1,13 +1,17 @@
+
+body
 ol {
     list-style-type: none;
   }
 
-p {
+p  {
     font-size: 21px;
     line-height: 26px;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
   }
-
-  h1 + p
-  {
-    color: green
+q {
+    font-family:
+      font-style: italic;
   }
