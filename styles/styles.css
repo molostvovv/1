@@ -1,0 +1,13 @@
+ol {
+    list-style-type: none;
+  }
+
+p {
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  h1 + p
+  {
+    color: green
+  }
