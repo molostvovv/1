@@ -1,12 +1,12 @@
 
-body
 ol {
     list-style-type: none;
   }
 
 p  {
-    font-size: 21px;
+    font-size: 100px;
     line-height: 26px;
+    margin-top: 30px;
     font-family: 'PT Sans', sans-serif;
     font-family: 'PT Sans Caption', sans-serif;
     font-family: 'Helvetica Neue', 'Arial', sans-serif;
