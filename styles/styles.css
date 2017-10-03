@@ -1,17 +1,52 @@
 
 ol {
-    list-style-type: none;
+  list-style-type: none;
+}
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-image: url(../img/mockup.jpg);
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 66px;
+  width: 700px;
+  margin: 0 auto;
+}
+p  {
+  font-size: 21px;
+  line-height: 26px;
+  margin-top: 30px;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
+q {
+  font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+  }
+h1 + p {color: grey;
+  font-family: "PT Sans", sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  margin-top: 5px;}
+h2 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  }
+ul {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 30px;
   }
 
-p  {
-    font-size: 100px;
-    line-height: 26px;
-    margin-top: 30px;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'PT Sans Caption', sans-serif;
-    font-family: 'Helvetica Neue', 'Arial', sans-serif;
-  }
-q {
-    font-family: 'PT Sans', sans-serif;
-    font-style: italic;
-  }
+h1 {
+  font-size: 44.5px;
+  font-weight: bold;
+  letter-spacing: ,45px;
+  margin-bottom: 5px;
+
+
+}
