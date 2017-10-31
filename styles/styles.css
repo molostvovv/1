@@ -16,6 +16,17 @@ body {
 
 }
 
+a {
+  color: inherit;
+    
+}
+
+.borders {
+  height: 100px;
+  border: 1px solid #000;
+
+}
+
 h1,h2,h3 {
   font-family: 'Pt Sans Caption';
   font-weight: bold;
@@ -53,11 +64,11 @@ h3 {
   line-height: 34px;
 }
 
-h3+p{
+h3 + p{
 margin-top: 6px;
 }
 
-p, blockquote {
+p, blockquote, ul {
   font-size: 22px;
   line-height: 34px;
   /*margin-top: 60px;*/
@@ -84,6 +95,16 @@ blockquote::before {
   width: 3px;
   height: 100%;
   background-color: rgba(0, 0, 0, .8);
+}
+
+ul {
+  margin: 29px auto;
+  list-style-type: disc;
+}
+
+li {
+  margin: 17px 0 17px 30px;
+
 }
 /*
 q {
